@@ -1,0 +1,13 @@
+name = "codeblanc-server"
+main = "src/index.ts"
+compatibility_date = "2025-02-21"
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "codeblanc"
+database_id = "acd15478-06a4-4a3d-bcd0-7a577a975555"
+migrations_dir = "drizzle"
+
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true

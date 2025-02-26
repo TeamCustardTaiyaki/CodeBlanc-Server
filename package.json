@@ -1,0 +1,19 @@
+{
+  "name": "CodeBlanc-Server",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.39.3",
+    "hono": "^4.7.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "drizzle-kit": "^0.30.4",
+    "tsx": "^4.19.3",
+    "wrangler": "^3.101.0"
+  }
+}
